@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    #serverTimezone设置时区Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/scw?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    #mysql从8.0的jdbc驱动配置前加入cj包
+    driver-class-name: com.mysql.cj.jdbc.Driver
